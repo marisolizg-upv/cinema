@@ -58,8 +58,8 @@
                     <td>el que caiga alv</td>
                   </tr>
                   <tr>
-                    <th scope="row" align="right">Cine:</th>
-                    <td>tu puta madre</td>
+                    <th scope="row" align="right">Total pagado:</th>
+                    <td>$mil varos</td>
                   </tr>
                 </tbody>
               </table>
