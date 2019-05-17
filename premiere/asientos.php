@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+     <link rel="shortcut icon" href="img/icono.jpg" />
   <title>Cinema Premiere</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
@@ -36,36 +37,11 @@
          <div class="container-fluid" style="padding-left:50px;">
            <div class="row">
              <div class="card-container col-sm-4">
-                <div class="card-flip">
-                    <div class="front card">
-                        <!-- Card Contents Here -->
-                        <img src="img/p2.jpg" alt="Avatar" width="350" height="auto">
-                    </div>
-                    <div class="back card">
-                        <!-- Card Contents Here -->
-                        <h6 class="card-title">Pokémon: Detective Pikachu</h6>
-                        <p class="card-text"><h6>Sinopsis: </h6>Tim y Pikachu recopilarán pistas juntos a través de las calles de Ryme City, una  moderna metrópolis donde humanos y Pokemons viven en paz y armonía, y descubrirán un asombroso complot que podría destruir esta convivencia pacífica y amenazar de esta manera el universo Pokemon.</p>
-                         <h6 class="card-text">Duración: </h6><p>104 minutos</p>
-                         <h6 class="card-text">Clasificación: </h6><p>A</p>
-                    </div>
-                </div>
-                <figure class="card card-flip">
-                   <div class="card bg-dark text-white">
-                      <img class="card-img img-fluid" src="img/p2.jpg" alt="">
-                   </div>
-                   <div class="card">
-                      <div class="card-body d-flex justify-content-center align-items-center">
-                        <h6 class="card-title">Pokémon: Detective Pikachu</h6>
-                        <p class="card-text"><h6>Sinopsis: </h6>Tim y Pikachu recopilarán pistas juntos a través de las calles de Ryme City, una  moderna metrópolis donde humanos y Pokemons viven en paz y armonía, y descubrirán un asombroso complot que podría destruir esta convivencia pacífica y amenazar de esta manera el universo Pokemon.</p>
-                         <h6 class="card-text">Duración: </h6><p>104 minutos</p>
-                         <h6 class="card-text">Clasificación: </h6><p>A</p>
-                      </div>
-                   </div>
-                </figure>
+                <img src="img/p2.jpg" alt="Avatar" width="300" height="auto">
               </div>
             <div class="col-sm-4">
               <h3 align="center" style="padding-top:50px;">PANTALLA</h3>
-              <div class="plane" style="padding-left:50px;">
+              <div class="plane">
                 <li class="row row--A">
                   <ol class="seats" type="A">
                     <li class="seat">
@@ -83,6 +59,10 @@
                     <li class="seat">
                       <input type="checkbox" id="A4" />
                       <label for="A4">A4</label>
+                    </li>
+                    <li class="seat">
+                      <input type="checkbox" id="A5" />
+                      <label for="A5">A5</label>
                     </li>
                   </ol>
                 </li>
@@ -104,6 +84,10 @@
                       <input type="checkbox" id="B4" />
                       <label for="B4">B4</label>
                     </li>
+                    <li class="seat">
+                      <input type="checkbox" id="B5" />
+                      <label for="B5">B5</label>
+                    </li>
                   </ol>
                 </li>
                 <li class="row row--C">
@@ -123,6 +107,10 @@
                     <li class="seat">
                       <input type="checkbox" id="C4" />
                       <label for="C4">C4</label>
+                    </li>
+                    <li class="seat">
+                      <input type="checkbox" id="C5" />
+                      <label for="C5">C5</label>
                     </li>
                   </ol>
                 </li>
@@ -144,31 +132,20 @@
                       <input type="checkbox" id="D4" />
                       <label for="D4">D4</label>
                     </li>
-                  </ol>
-                </li>
-                <li class="row row--E">
-                  <ol class="seats" type="E">
                     <li class="seat">
-                      <input type="checkbox" id="E1" />
-                      <label for="E1">E1</label>
-                    </li>
-                    <li class="seat">
-                      <input type="checkbox" id="E2" />
-                      <label for="E2">E2</label>
-                    </li>
-                    <li class="seat">
-                      <input type="checkbox" id="E3" />
-                      <label for="E3">E3</label>
-                    </li>
-                    <li class="seat">
-                      <input type="checkbox" id="E4" />
-                      <label for="E4">E4</label>
+                      <input type="checkbox" id="D5" />
+                      <label for="D5">D5</label>
                     </li>
                   </ol>
                 </li>
               </div>
           </div>
           <div class="col-sm-4">
+            <div align="center">
+              <br><br><br><br><br>
+              <a href="confirmacion.php" class="btn btn-success" role="button">Finalizar</a>
+            </div>
+
           </div>
         </div>
       </div>
