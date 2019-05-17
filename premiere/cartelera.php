@@ -112,7 +112,7 @@
                   ¿Qué pasa si un niño de otro mundo aterrizó en la Tierra,
                   pero en lugar de convirtiéndose en un héroe para la humanidad,
                   demostró ser algo mucho más siniestro? </p>
-                  <a class="btn btn-primary" href="horarios.php" role="button" align="right">Horarios</a>
+                  <a class="btn btn-primary"  href="horarios.php" role="button" align="right">Horarios</a>
                   <hr class="my-4">
               </div>
             </div>
